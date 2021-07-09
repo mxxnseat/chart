@@ -1,0 +1,35 @@
+{
+  "name": "chart",
+  "version": "1.0.0",
+  "description": "chart from real stock api",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode production",
+    "start": "webpack serve --config webpack.dev.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxxnseat/chart.git"
+  },
+  "author": "mxxnseat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxxnseat/chart/issues"
+  },
+  "homepage": "https://github.com/mxxnseat/chart#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  }
+}
